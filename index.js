@@ -5,7 +5,7 @@ const app = express();
 
 // Respond with "hello world" for requests that hit our root "/"
 app.get("/", function (req, res) {
- return res.send("Hello Heroku");
+ return res.send("Hello Heroku test");
 });
 
 // listen to port 7000 by default
